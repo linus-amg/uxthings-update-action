@@ -1,6 +1,6 @@
 {
   "name": "uxthings-update-action",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "use this action to publish a new version string to a specific app",
   "main": "index.js",
   "scripts": {
