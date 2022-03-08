@@ -1,8 +1,9 @@
 name: 'UXThings Update Action'
-version: '0.0.4'
+version: '0.0.5'
 description: 'Publish updated version strings to your UXThings applications to trigger client-side app-updates.'
-icon: 'refresh-ccw'
-color: 'yellow'
+branding:
+  icon: 'refresh-ccw'
+  color: 'yellow'
 inputs:
   apiKey:
     description: 'API Key of the application'
