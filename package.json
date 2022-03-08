@@ -1,6 +1,6 @@
 {
   "name": "uxthings-update-action",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "use this action to publish a new version string to a specific app",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/linus-amg/uxthings-update-action/issues"
   },
   "homepage": "https://github.com/linus-amg/uxthings-update-action#readme",
-  "devDependencies": {
+  "dependencies": {
     "@actions/core": "^1.6.0"
   }
 }
