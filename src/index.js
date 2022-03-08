@@ -13,17 +13,8 @@ const callUrl = `${serviceHost}${servicePath}?apiKey=${apiKey}&apiSecret=${apiSe
 https.get(callUrl, {
   method: 'POST'
 }, res => {
-  const data = [];
-
-  res.on('data', chunk => {
-    data.push(chunk);
-  });
-
   res.on('end', () => {
-    console.log('Response ended: ');
-    const response = JSON.parse(Buffer.concat(data).toString());
-
-    console.log(response);
+    console.log(res.statusCode === 200 ? 'success' : 'failure');
   });
 }).on('error', err => {
   console.log('Error: ', err.message);

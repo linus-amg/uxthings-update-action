@@ -1,5 +1,5 @@
 name: 'UXThings Update Action'
-version: '0.0.5'
+version: '0.0.6'
 description: 'Publish updated version strings to your UXThings applications to trigger client-side app-updates.'
 branding:
   icon: 'refresh-ccw'
