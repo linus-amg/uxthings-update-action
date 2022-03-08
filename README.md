@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update remote Application version
-        uses: linus-amg/uxthings-update-action@v0.0.3
+        uses: linus-amg/uxthings-update-action@v0.0.4
         with:
           apiKey: ${{ secrets.UXThingsAPIKey }}
           apiSecret: ${{ secrets.UXThingsAPISecret }}

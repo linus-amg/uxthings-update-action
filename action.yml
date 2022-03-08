@@ -1,5 +1,5 @@
 name: 'UXThings Update Action'
-version: '0.0.3'
+version: '0.0.4'
 description: 'Publish updated version strings to your UXThings applications to trigger client-side app-updates.'
 icon: 'refresh-ccw'
 color: 'yellow'
@@ -18,4 +18,4 @@ outputs:
     description: 'boolean to see if updating the version remotely was a success'
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'dist/index.js'
