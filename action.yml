@@ -1,0 +1,18 @@
+name: 'UXThings Update Action'
+description: 'Publish updated version strings to your UXThings applications to trigger client-side app-updates.'
+inputs:
+  apiKey:
+    description: 'API Key of the application'
+    required: true
+  apiSecret:
+    description: 'API Secret of the application'
+    required: true
+  newVersion: 
+    description: 'the app version string you want to set your application to, should be the same as your app provides in the UXThings configure call.'
+    required: true
+outputs:
+  success:
+    description: 'boolean to see if updating the version remotely was a success'
+runs:
+  using: 'node16'
+  main: 'index.js'

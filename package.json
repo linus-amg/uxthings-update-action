@@ -1,0 +1,23 @@
+{
+  "name": "uxthings-update-action",
+  "version": "1.0.0",
+  "description": "use this action to publish a new version string to a specific app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linus-amg/uxthings-update-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linus-amg/uxthings-update-action/issues"
+  },
+  "homepage": "https://github.com/linus-amg/uxthings-update-action#readme",
+  "devDependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
