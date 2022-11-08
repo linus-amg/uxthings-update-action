@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/linus-amg/uxthings-update-action#readme",
   "devDependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "@vercel/ncc": "^0.33.3"
   }
 }
